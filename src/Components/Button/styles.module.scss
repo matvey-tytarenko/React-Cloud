@@ -1,0 +1,37 @@
+.button
+{
+    border: none;
+    border-radius: 26px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 15px 36px;
+    transition: .3s ease-in-out;
+}
+
+.green
+{
+    background: #13A463;
+    color: #fff;
+
+    &:hover {
+        background: #11804e;
+    }
+
+    &:active {
+        background: #006035;
+    }
+}
+
+.default {
+    background: #fff;
+    border: 1px solid #000;
+
+    &:hover {
+        border-color: gray;
+    }
+
+    &:active {
+        border-color: rgb(0, 0, 0);
+    }
+}

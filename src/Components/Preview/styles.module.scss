@@ -1,0 +1,40 @@
+.Preview
+{
+    padding: 20px 0 0;
+    position: relative;
+}
+
+.image
+{
+    width: 250px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.cross {
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.badge {
+    position: absolute;
+    background: #00AFFF;
+    color: #fff;
+    border-radius: 20px;
+    padding: 4px 8px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+    top: 2px;
+}
+
+.text {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.size {
+    text-align: end;
+}
